@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <!-- TODO
+Finish sign up box - and make it responsive 
+Flexbox
+Choose header font size properties
 figure out opacity
 Choose top and bottom nav bar colors
 Make the Log in container 
@@ -17,14 +20,18 @@ Make the Log in container
     </head>
 
     <body class = "grid-container">
-        <div class="header">
-            <span id = "logo">eLog</span>
-            <span class = "header-text">Profile</span>
-            <span class = "header-text">Log</span>
-            <span class = "header-text">Stats</span>
-            <span class = "header-text">College Park</span>
-            <span class = "header-text">User</span>
-        </div>
+        <header class="header">
+            <nav id="header-nav-container">
+                <ul class="header-nav">    
+                    <li class="header-nav-tabs"><a href="">eLog</a></li>
+                    <li class="header-nav-tabs"><a href="">Profile</a></li>
+                    <li class="header-nav-tabs"><a href="">Log</a></li>
+                    <li class="header-nav-tabs"><a href="">Stats</a></li>
+                    <li class="header-nav-tabs" id="header-nav-splitter"><a href="">College Park</a></li>
+                    <li class="header-nav-tabs"><a href="">User</a></li>
+                </ul>
+            </nav>
+        </header>
 
         <div class="sign-up-background-image">
 
@@ -37,8 +44,28 @@ Make the Log in container
         </div>
    
 
-        <div class="middle-right-nav">
-            <span>Sign Up</span>
+        <div id="log-in-container">
+            <form action="" method="">
+                <nav>
+                    <ul id="log-in-nav">
+                        <li class="log-in-nav-tabs" id="log-in-signup"><a href="">Sign Up</a></li>
+                        <li class="log-in-nav-tabs" id="log-in-login"><a href="">Log In</a></li>
+                        <li class="log-in-nav-tabs" id="log-in-demo"><a href="">Demo</a></li>
+                    </ul>
+                </nav>
+
+                <br>
+                <label for="log-in-email">E-Mail:</label>
+                <input type="text" id="log-in-email" class="log-in-text-entry" name="log-in-email"/>
+                <br>
+                <label for="log-in-pass">Password:</label>
+                <input type="text" id="log-in-pass" class="log-in-text-entry" name="log-in-pass"/>
+                <br>
+                <p class="log-in-p-text">Forgot your password?</p>
+
+                <button type="submit">Log In</button>
+            </form>
+            
         </div>
 
         <div class = "about-section">
@@ -60,5 +87,7 @@ Make the Log in container
         </div>
 
     </body>
+
+      
 
 </html>
