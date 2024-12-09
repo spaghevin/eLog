@@ -44,9 +44,9 @@ Make the Log in container
         </div>
    
 
-        <div id="log-in-container">
-            <form action="" method="">
-                <nav>
+        
+            <form action="" method="" id="log-in-container">
+                <nav class="log-in-item">
                     <ul id="log-in-nav">
                         <li class="log-in-nav-tabs" id="log-in-signup"><a href="">Sign Up</a></li>
                         <li class="log-in-nav-tabs" id="log-in-login"><a href="">Log In</a></li>
@@ -55,18 +55,19 @@ Make the Log in container
                 </nav>
 
                 <br>
-                <label for="log-in-email">E-Mail:</label>
-                <input type="text" id="log-in-email" class="log-in-text-entry" name="log-in-email"/>
+                <label for="log-in-email" class="log-in-item">E-Mail:</label>
+                <input type="text" id="log-in-email" class="log-in-item" name="log-in-email"/>
                 <br>
                 <label for="log-in-pass">Password:</label>
-                <input type="text" id="log-in-pass" class="log-in-text-entry" name="log-in-pass"/>
-                <br>
-                <p class="log-in-p-text">Forgot your password?</p>
+                <input type="text" id="log-in-pass" class="log-in-item" name="log-in-pass"/>
 
-                <button type="submit">Log In</button>
+                
+                <button class="log-in-item" type="submit">Forgot your password?</button>
+
+                <button class="log-in-item" type="submit">Log In</button>
             </form>
             
-        </div>
+        
 
         <div class = "about-section">
             <p id = "about-section-header">
