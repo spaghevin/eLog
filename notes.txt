@@ -1,1 +1,8 @@
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); for the exports
+
+I want the sign-up log-in-nav-tabs text to be centered
+I want to follow stackoverflow/github log in style-
+
+i don't want the log in text entry and log in button to take the whole width, leave some margin
+
+I also want a floating nav bar ( the black bar on top)
